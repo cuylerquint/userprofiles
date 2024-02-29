@@ -49,3 +49,4 @@ if GS_BUCKET_NAME := env("STATICFILES_BUCKET_NAME", default=None):
             "BACKEND": "storages.backends.gcloud.GoogleCloudStorage",
         },
     }
+SESSION_COOKIE_SECURE = True
