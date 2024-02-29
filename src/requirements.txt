@@ -1,0 +1,20 @@
+# Django
+# ------------------------------------------------------------------------------
+django==3.2
+django-environ==0.10.0
+django-storages[google]==1.13.2
+djangorestframework==3.14.0
+django-extensions
+
+
+# Utils
+# ------------------------------------------------------------------------------
+gunicorn==20.1.0
+google-cloud-secret-manager==2.6.0
+google-cloud-run==0.10.1
+pyjwt==1.7.1
+
+
+# DataStores
+# ------------------------------------------------------------------------------
+psycopg2-binary==2.9.9
